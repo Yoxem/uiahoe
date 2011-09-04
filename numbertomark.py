@@ -139,13 +139,15 @@ for i in range(len(syllable_list)):
                #轉換第二聲調值的鼻子音列表（ng不列）。
                converted_nasal_cons_list = ['ḿ', 'ń', 'Ḿ', 'Ń']
                
-               for i in nasal_cons_list:
-                   if re.match(i, anal_syllable[2][0]): #比對頭子音
+               for i in range(len(nasal_cons_list)):
+                   #比對頭子音
+                   if re.match(nasal_cons_list[i], anal_syllable[2][0]): 
                        if len(anal_syllable) == 1: #m2, n2
-                           anal_syllable[2] = i
+                           anal_syllable[2] = converted_nasal_cons_list[i]
                        
                        else: #ng2
-                           anal_syllable[2] = i + anal_syllable[2][1]
+                           anal_syllable[2] = converted_nasal_cons_list[i] +\
+                               anal_syllable[2][1]
                        
                        break #以後的字母因為一定不合，不比了。
            
@@ -160,7 +162,7 @@ for i in range(len(syllable_list)):
                if len(anal_syllable[2]) == 1: #m5 or n5
                    anal_syllable[2] = anal_syllable[2] + '\xcc\x82'
                else: #ng5
-                   anal_syllable[2] = anal_syllablep[2][0] + '\xcc\x82' +\
+                   anal_syllable[2] = anal_syllable[2][0] + '\xcc\x82' +\
                        anal_syllable[2][1]
            
            #陽去和陽上（數字編號已轉換為7）
