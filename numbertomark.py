@@ -79,7 +79,7 @@ orig_content = orig_content[1:] #刪除頭一個字（空白）
 '''處理調號'''
 
 #音節list（），包含連字號、空白
-syllable_list = re.split('([- ().,]+)', orig_content) 
+syllable_list = re.split('([- ().,，。]+)', orig_content) 
 
 result = "" #輸出的結果（預設為空）
 
