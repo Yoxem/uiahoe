@@ -66,7 +66,7 @@ def vowel_add_mark(vowel):
 '''主程式'''
 
 if len(sys.argv) == 1:
-    print "請輸入欲轉換的POJ數字符號。"
+    print "請輸入欲轉換的POJ（數字符號形）。"
     exit()
 
 orig_content  = "" #原來的POJ數字表記
