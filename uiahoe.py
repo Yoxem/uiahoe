@@ -78,12 +78,8 @@ orig_content = orig_content[1:] #刪除頭一個字（空白）
 
 '''處理調號'''
 
-#i.e. punctuation_list，符合符號定義的字元 list。用 regexp 語法
-punctu_list = '([' + string.punctuation +\
-    "、，。？！（）「」『』《》〈〉【】〔〕；：…－　\s" + '])'
-
 #音節list（），包含符號、標點、其他文字
-syllable_list = re.split(punctu_list, orig_content) 
+syllable_list = re.split('([^a-zA-Z0-9]+)', orig_content) 
 
 result = "" #輸出的結果（預設為空）
 
