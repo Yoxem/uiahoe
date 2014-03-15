@@ -81,6 +81,10 @@ Beh 訂 chit-ê mailing list ká 別人開講，請對 uiahoe-subscribe@googlegr
 *註*
 Che ui3 chit-e5 Bazaar repo 搬來: http://tcirc.org/~yoxem/script/uiahoe/src
 
+頭版:2011-09-08 chin3 前
+
+Siong7新版：2014-03-16
+
 Trad. Mandarin Chinese
 ---------------------------
 *關於*
@@ -138,4 +142,7 @@ Trad. Mandarin Chinese
 
 *註*
 這是從此 Bazaar repo 搬來: http://tcirc.org/~yoxem/script/uiahoe/src
+
+初版：2011-09-08 之前
+新版：2014-03-16
 
