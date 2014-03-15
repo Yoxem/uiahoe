@@ -83,7 +83,7 @@ Che ui3 chit-e5 Bazaar repo 搬來: http://tcirc.org/~yoxem/script/uiahoe/src
 
 頭版:2011-09-08 chin3 前
 
-Siong7新版：2014-03-16
+Siong7 新版：2014-03-16
 
 Trad. Mandarin Chinese
 ---------------------------
@@ -144,5 +144,6 @@ Trad. Mandarin Chinese
 這是從此 Bazaar repo 搬來: http://tcirc.org/~yoxem/script/uiahoe/src
 
 初版：2011-09-08 之前
+
 新版：2014-03-16
 
