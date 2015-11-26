@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*-coding:utf-8-*-
 #uiahoe - 將POJ的數字標記轉成調號。N,nn ~ -> 小n，ou、oo -> 葫蘆點。
-#Author: Chen, Chien-ting <chenjt30@gmail.com>
+#Author: Chen Yoxem <yoxem.tem98@nctu.edu.tw>
 #version:0.1.0（務必和下行一致）
 #LICENSE:GPL v3 (https://www.gnu.org/copyleft/gpl.html)
 
